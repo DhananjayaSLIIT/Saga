@@ -1,0 +1,202 @@
+<html>
+
+	<head>
+	
+		<title> Register </title>
+		
+		<link rel ="stylesheet" type="text/css" href= "css/register-css.css"> 		</link>
+		<script src="js/register-js.js"> </script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	
+	<head>
+	
+	<body>
+	
+	
+		
+			<div class ="topnav">
+					
+						<div class="mainLogo">
+							
+							<a href="home.html" > <img src="img/saga-eat.png"> </a>
+							
+						</div>
+						
+						
+						
+						<ul class="topnavlist">
+						
+							<li class="active">	<a href="Home.html"> Log In / Register </a>  </li>
+							
+							&nbsp &nbsp
+							
+							<img src="img/myacclogo.png" alt="Avatar" class="avatar">
+							   
+							 
+						</ul>
+			
+						
+					
+		
+		</div> 
+		
+		
+			<div class="container">
+			
+				<div class="outer">
+			
+				<div class="details">
+				
+					<br>
+
+				
+				<div class="form_div_left">
+				
+							<form class="form1" name ="RegForm" method="POST" onsubmit="return validateForm();" action="my account.php">   
+												
+							<div><h2 align="center"> Become A Member </h2></div>
+							
+							<br>
+							
+							<label>First Name</label> 
+							<input type="text" name="txtfname" />  <br><br>
+							
+							<label>Last Name </label>
+							 <input type="text" name="txtlname" /> <br><br>
+							
+							<label>Gender  </label><br>
+							 <input type= "radio" name ="gender"  class="gender" checked value="Male" /> Male
+							 
+							 <input type= "radio" name ="gender" class="gender" value="Female" /> Female  <br><br>
+							 
+										
+							<label >Mobile Number </label>
+							 <input type="text" name="mobile" />  <br><br>
+							
+							<label >Email Address</label>
+							 <input type="text" Id="emailAddress" name="email" />   <br><br>
+							
+							
+							
+							<label>Date of Birth</label>
+							<input type="date" name="dob"  />  <br><br>
+							
+							
+							<label>Password
+							
+							<input name="password" id="password" type="password" onkeyup='check();'  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,16}"/>
+							
+							</label />
+
+							<br><br>
+							
+							<label>Confirm Password
+							
+							
+							<input type="password"  id="confirm_password"  onkeyup='check();' /> 
+							
+							<br><br>
+							
+							<span id='message'></span>
+							
+							</label>
+							
+							
+							<br><br> 
+							
+							<input type="checkbox" class="policy" name="privacy" />Accept Privacy And Policy <br><br><br>
+							
+							<input type="submit" value="Register" class="submit"  />
+						
+						
+						
+						
+						</form>  
+						
+						
+						
+				</div>		
+						
+			
+				
+				
+				
+				<div class="form_div_right">
+				
+				
+						<div class="child_right_div">
+						
+						
+								<form class="form2">
+								
+									<h2>Alreday A Member ?</h2>
+									<br>
+									
+									<h3>Log In Here</h3>
+									<br><br>
+									
+									<button> <a href="log in.html" class="logInBtn">Log In </a> </button>
+								
+								</form>
+								
+						</div>
+						
+				</div>
+				
+
+
+				
+				
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+			</div>
+			
+						<div class="foot">
+						<footer>  <font class="copyright"> Copyright 2019 © SAGA. All Rights Reserved. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br> <br><a href="about us.html" > About Us</a>	&nbsp &nbsp <a href="feedback.html" > Feedback</a>	&nbsp &nbsp <a href="contactus.html" > Contact Us</a>	
+															
+															 										
+														<div class="social">
+															
+																<a href="www.fb.com"><img src="img/fb.png"> </a>
+																<a href="www.instagram.com"><img src="img/insta.png"> </a>
+																<a href="www.twitter.com"><img src="img/twitter.png"> </a>
+																<a href="www.whatsapp.com"><img src="img/whatsapp.png"> </a>
+																<a href="www.gmail.com"><img src="img/gmail.png"> </a>
+																
+																
+															</div>
+															
+														
+															
+	
+						</footer>
+						
+						
+			</div>
+			
+		</div>
+			
+								
+			
+
+			
+		</div>
+		
+		
+		
+			
+	</body>
+
+			
+
+</html>

@@ -1,0 +1,351 @@
+	*{
+		margin: 0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+	
+	body {
+	  background-color:black;
+		min-height:100%;
+		width:100%;
+	}
+	
+	.container{
+		position: absolute;
+		left:0;
+		margin-top:83px;
+		
+		height:190%;
+		width:100%;
+		
+		background-size: cover;
+		background-image: url(../img/q8.jpg);
+		
+	}
+	
+	
+	
+	.topnav{
+		color: black;
+		top:15%;
+	}
+	
+	
+							.topnavlist{
+								list-style-type: none;
+								float : right;
+								margin-top: 12px;
+								margin-right: 30px;
+								
+								
+							}
+							
+							.topnavlist li{
+								
+								display: inline-block;
+								font-weight: 20px;
+								
+							}
+							
+							.topnavlist li a{
+								
+								text-decoration: none;
+								color: white;
+								padding: 8px 20px;
+								border : 0.5px solid white ;
+								transition: 0.2s ease;
+								border: 2px solid white;
+								
+								border-radius: 10px;
+								
+							}
+							
+							.topnavlist li a:hover{
+								background-color: #4BA01A ;
+								color: white;
+							}
+							
+							
+							
+
+							.topnavlist li.active a{
+								background-color:	#4BA01A;
+								color: black;
+							}
+							
+							
+	.mainLogo img{
+		float: left;
+		width: 120px;
+		height:auto;
+		top:0;
+		margin-left: 25px;
+	}
+	
+	.signUpBtn{
+		text-decoration: none;
+		color:black;
+	}									
+
+
+	
+	
+	
+		
+	.avatar {
+	  vertical-align: middle;
+	  width: 60px;
+	  height: 60px;
+	  border-radius: 50%;
+	  
+	  
+	}
+		
+		
+
+.foot{
+	position: absolute;
+	right:0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color:black;
+ 
+}
+
+.foot a{
+	
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	
+}
+
+.cpyright{
+	
+	color: white;
+	
+}
+
+
+
+.copyright{
+	margin-right:0;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+.summary{
+	
+	width:45%;
+	border: 1px solid white;
+	
+	
+	padding: 25px;
+	
+	border-radius: 25px;
+	
+	
+	color:white;
+	
+	background: rgba(0,0,0,0.9); 
+	
+	font-weight: bold;
+	
+	float:right;
+	
+	margin-right:30px;
+	
+}
+
+.child_div_payment{
+	
+	width:80%;
+	
+	
+	
+}
+	
+ .payment{
+	
+	width:45%;
+	border: 1px solid white;
+
+	
+	padding: 25px;
+	
+	border-radius: 25px;
+
+	 color:white;
+	
+
+	
+	background: rgba(0,0,0,0.9);
+	 
+	font-weight: bold;
+	
+	float:left;
+	margin-left:30px;
+ }
+ 
+ input[type=text]{
+	 
+	 width:70%;
+	 height:30px;
+	 border-radius: 6px;
+	 background-color:#E9FCF9;
+	 font-size: 20px;
+	 border: none;
+ }
+ 
+ button a{
+	 
+	 text-decoration:none;
+	 color:black;
+	 
+ }
+	
+	
+
+
+
+
+.hr1{
+	
+	height:10px;
+	background-color: #B03A2E;
+	border-radius:20px;
+
+}
+
+
+.date, .cvv{
+	
+	 width:20%;
+	 height:30px;
+	 border-radius: 6px;
+	 background-color: white;
+	 font-size: 20px;
+	 border: none;
+}
+
+
+
+table{
+	
+	color:black;
+	text-align:center;
+	
+}
+
+h1{
+	
+	color:#27F3C4;
+	
+}
+
+
+.btn{
+	
+	
+	border-radius: 6px;
+	padding: 10px 30px;
+	background: #60ADDE;
+	border: none;
+	font-weight: bold;
+
+}
+
+
+.btn:hover{
+	transition: 0.5s ease;
+		background-color: #A233F4 ;
+		color: white;
+}
+
+
+
+
+
+.social{
+	
+	
+	display:inline-block;
+	float:right;
+	height:
+}
+
+.social img{
+
+	 
+	 width:30px;
+	 height:30px;
+	 
+ }
+
+
+
+
+
+/*media queries*/
+
+@media only screen and (max-width:600px){
+	
+	/*Mobile*/
+	
+	input[type=text]{
+		
+		width:100%;
+	}
+	
+	
+	.date, .cvv{
+		
+		width:100%;
+		
+	}
+	
+	.summary{
+		
+		width:88%;
+		
+	}
+	
+	.payment{
+		
+		width:88%;
+	}
+	
+	
+	.container{
+		
+		height:280%;
+	}
+	
+	
+	.child_div_payment{
+		
+	
+	}
+
+}
+
+@media only screen and (min-width:768px){
+	
+	/*Desktop*/
+	
+	
+	
+	
+	
+	
+
+}

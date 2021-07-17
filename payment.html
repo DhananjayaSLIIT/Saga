@@ -1,0 +1,212 @@
+<html>
+
+	<head>
+	
+		<title> Make Payment </title>
+		
+		<link rel ="stylesheet" type="text/css" href= "css/payment-css.css"> 		</link>
+		<script src="js/payment-js.js"> </script>
+		
+		
+	
+	<head>
+	
+	<body>
+	
+	
+		
+			<div class ="topnav">
+					
+						<div class="mainLogo">
+							
+							<a href="home.html"> <img src="img/saga-eat.png"> </a>
+							
+						</div>
+						
+						
+						
+						<ul class="topnavlist">
+						
+							<li>	<a href="my account.html" > My Account </a>  </li>
+							
+							&nbsp &nbsp
+							
+							<img src="img/myacclogo.png" alt="Avatar" class="avatar">
+							   
+							 
+						</ul>
+			
+						
+					
+		
+		</div> 
+		
+		
+			<div class="container">
+			
+				<div class="outer">
+			
+				<div class="details">
+				
+					<br>
+
+				
+				
+				<div class="payment">
+				
+				
+				
+				<div class="child_div_payment">
+				
+				<form name ="payment" method="post" onsubmit="return validatepayment();" action="payment.php">
+				
+				<h1 align="center"> Payment Details </h1> <br>
+				
+				<hr class="hr1"><br>
+					<label>Accepted Card Types <br><br>
+					
+						<img src="img/visa1.png" height="40px">	&nbsp
+						<img src="img/master2.png" height="40px">
+						
+						
+					</label>
+					
+					<br><br><br>
+					<label>Cardholder's Name<br><br>
+					<input type="text" name="cardHolderName" />	</label>	<br><br><br>
+					
+					<label>Card Number<br><br>
+					<input type="text" name="cardNumber" >	</label>	<br><br><br>
+					
+					<label>Expiry Date<br><br>
+					<input name="expDate" class="date">	</label>	<br><br><br>
+					
+					<label>Expiry Month<br><br>
+					<input name="expMonth"  class="date">	</label>	<br><br><br>
+					
+					<label>CVV Code<br><br>
+					<input  name="cvv"  class="cvv"/>     </label> <br><br><br>
+					
+					<input type="submit" value="Make Payment" class="btn"> &nbsp
+					
+					<button class="btn"> <a href="my cart.html">Back to Cart </a></button><br><br>
+
+					
+				</form>
+				
+				</div>
+				
+				</div>
+				
+				
+					
+				
+				
+				
+				<div class="summary"> 
+				
+				<div class="child_div_payment">
+				
+				
+				<form>
+				
+					<h1 align="center">Order Summary </h1> <br>
+					
+					<hr class="hr1"><br>
+					
+					<label>Order Inrormation</label><br><br>
+					
+					
+					<table border = "1" bgcolor="#E4E4EC" cellspacing = "0" cellpadding = "10" width = "80%" align = "center">
+					
+						<tr>	<th>Item</th>
+								<th>Quantity</th>	
+								<th>Price (LKR)</th>		</tr>
+					
+						<tr> 	<td>Item2</td>
+								<td>3</td>
+								<td>560</td> </tr>
+						
+						<tr> 	<td>Item3</td>
+								<td>5</td>
+								<td>1160</td> </tr>
+								
+						
+						<tr> 	<td>Item4</td>
+								<td>1</td>
+								<td>100</td> </tr>
+						
+						
+					</table>
+					
+					<br><br>
+					
+					
+					<h2>Total = 1820.00 LKR</h2>
+					
+					
+					<br><br>
+					
+					<label>Address</label><br>
+					
+					<input type="checkbox"> Deafult Address <br><br>
+					
+					Or Input New Address <br>
+					
+					<textarea type="textarea" rows="8" cols="40" required> </textarea><br><br>
+					
+					<button class="btn">Save Changes</button>
+					
+					<br><br>
+
+				</div>
+				
+				
+				
+				</form>
+				
+				
+				</div>
+				
+				
+					</div>
+	
+					</div>
+			
+				<div class="foot">
+						<footer>  <font class="copyright"> Copyright 2019 © SAGA. All Rights Reserved. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br> <br><a href="about us.html" > About Us</a>	&nbsp &nbsp <a href="feedback.html" > Feedback</a>	&nbsp &nbsp <a href="contact us.html" > Contact Us</a>						
+															
+															<div class="social">
+															
+																<a href="www.fb.com"><img src="img/fb.png"> </a>
+																<a href="www.instagram.com"><img src="img/insta.png"> </a>
+																<a href="www.twitter.com"><img src="img/twitter.png"> </a>
+																<a href="www.whatsapp.com"><img src="img/whatsapp.png"> </a>
+																<a href="www.gmail.com"><img src="img/gmail.png"> </a>
+																
+																
+															</div>
+
+															
+															
+															
+														
+															
+	
+						</footer>
+						
+						</div>
+			
+			
+			</div> 
+		
+		
+			
+			
+						
+			
+			
+	</body>
+
+
+</html>

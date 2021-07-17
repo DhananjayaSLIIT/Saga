@@ -1,0 +1,197 @@
+<html>
+
+	<head>
+	
+		<title> Customer Feedback </title>
+		
+		<link rel ="stylesheet" type="text/css" href= "css/feedback-css.css"> 		</link>
+		
+		<script src = "js/feed.js"></script>
+		
+	
+	<head>
+	
+	<body>
+	
+	
+		
+			<div class ="topnav">
+					
+						<div class="mainLogo">
+							
+							<a href="home.html"> <img src="img/saga-eat.png"> </a>
+							
+						</div>
+						
+						
+						
+						<ul class="topnavlist">
+						
+							<li>	<a href="my account.php" > My Account </a>	</li>
+							
+							&nbsp &nbsp
+							
+							<img src="img/myacclogo.png" alt="Avatar" class="avatar">
+							   
+							 
+						</ul>
+			
+						
+					
+		
+		</div> 
+		
+		
+			<div class="container">
+			
+				<div class="outer">
+			
+				<div class="details">
+				
+					<br>
+
+					
+					
+					<div class="frame">
+					<div class= "feedback">
+					
+					
+						<h1> Feedback Form</h1> <br><br>
+					
+						 <form>
+							<label for="fname">Name</label> <br>
+							<input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+
+							<label for="phno">Last Name</label> <br>
+							<input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br>
+	
+							<label for="lname">Mobile Number</label> <br>
+							<input type="text" id="number" name="number" placeholder="Enter the number.."> <br>
+
+							
+							<br>
+							
+							<label for="subject">Subject</label> 	<br>
+							
+							<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <br><br>
+
+							<input type="submit" value="Submit Feedback" onsubmit="return validate() ;">
+						  </form>
+											
+					</div>
+					
+					</div>
+				
+				<script>
+				function validate(){
+	 
+	 var fname, lname, mail, phno ;
+	 
+	 
+	 fname = document.formfeed.fullname.value;
+	 lname = document.formfeed.lastname.value;
+	 mail = document.formfeed.email.value;
+	 phno = document.getElementById('phone').value;
+	 
+	 
+	 
+	 
+	 
+	 if(fname == "" ||lname == "" ||mail == "" ||phno == "" )
+	 {
+		 
+		 alert("Fill all the mandatory fields");
+		 return false;
+		 
+	 }
+	 if(phno.length == 0){
+		 alert("Fill all the mandatory fields");
+		 return false;
+	 }
+	 
+	 if(phno.length != 10){
+		 alert("Enter valid phone number");
+		 return false;
+	 }
+	 
+	 if(!phno.match(/^[0-9]{10}$/)){
+		 
+		 alert("Enter valid phone number");
+		 return false;
+	 }
+	 
+	 else{
+		 
+		 alert("Feedback submitted successfully");
+		 return true;
+		 
+	 }
+ }
+ 
+ 
+ 
+ function submit(){
+	 
+	 
+	 var txt;
+	   var r = confirm("Are you sure?");
+	   
+	   if (r == true) {
+		 txt = "You pressed OK!";
+	   } else {
+		 txt = "You pressed Cancel!";
+	   }
+	   document.getElementById("demo").innerHTML = txt;
+ 
+	 
+ }
+	 
+
+
+
+				</script>
+				
+				
+				
+				
+				
+				
+				
+					</div>
+	
+					</div>
+			
+				<div class="foot">
+						<footer>  <font class="copyright"> Copyright 2019 © SAGA. All Rights Reserved. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br> <br><a href="about us.html" > About Us</a>	&nbsp &nbsp <a href="feedback.html" > Feedback</a>	&nbsp &nbsp <a href="contactus.html" > Contact Us</a>	
+															
+															 										
+									<div class="social">
+															
+											<a href="www.fb.com"><img src="img/fb.png"> </a>
+											<a href="www.instagram.com"><img src="img/insta.png"> </a>
+											<a href="www.twitter.com"><img src="img/twitter.png"> </a>
+											<a href="www.whatsapp.com"><img src="img/whatsapp.png"> </a>
+											<a href="www.gmail.com"><img src="img/gmail.png"> </a>
+																
+																
+									</div>
+															
+														
+															
+	
+						</footer>
+						
+						</div>
+			
+			
+			</div> 
+		
+			
+			
+						
+			
+			
+	</body>
+
+
+</html>
